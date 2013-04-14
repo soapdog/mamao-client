@@ -1,0 +1,52 @@
+/*
+	Put anything you reference with "url()" in ../assets/
+	This way, you can minify your application, and just remove the "source" folder for production
+*/
+.nice-padding {
+	padding: 15px;
+}
+
+.on-top {
+    z-index: 1;
+}
+
+.home-button {
+    width: 90%;
+    height: 3em;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.round {
+    border-radius: 30px;
+}
+
+.nice-padding-top {
+    margin-top: 30px;
+}
+
+.debug-border {
+    border: 3px solid orange;
+}
+
+.mapbackground {
+    background-size: cover;
+    background-image: url("../assets/img/back.png");
+}
+
+.laranja {
+    background: none;
+    background-color: #ea9c23;
+}
