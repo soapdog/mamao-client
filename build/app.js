@@ -4224,15 +4224,11 @@ tag: "div",
 fit: !0,
 classes: "center fundo",
 components: [ {
-tag: "br"
-}, {
 tag: "img",
 classes: "logo",
 attributes: {
 src: "/assets/img/logo_mamao.png"
 }
-}, {
-tag: "br"
 }, {
 kind: "onyx.Button",
 name: "registrarUsuario",

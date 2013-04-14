@@ -19,9 +19,7 @@ enyo.kind({
             ]
         },
         {tag: "div", fit: true, classes: "center fundo", components:[
-            {
-                tag: "br"
-            },
+          
             {
                 tag: "img",
                 classes: "logo",
@@ -29,9 +27,7 @@ enyo.kind({
                     src: "/assets/img/logo_mamao.png"
                 }
             },
-            {
-                tag: "br"
-            },
+
             {
                 kind: "onyx.Button",
                 name: "registrarUsuario",
