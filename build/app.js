@@ -4222,8 +4222,18 @@ taglines: [ "Domindando o mundo!", "Desejo de informa\u00e7\u00e3o" ]
 }, {
 tag: "div",
 fit: !0,
-classes: "center",
+classes: "center fundo",
 components: [ {
+tag: "br"
+}, {
+tag: "img",
+classes: "logo",
+attributes: {
+src: "/assets/img/logo_mamao.png"
+}
+}, {
+tag: "br"
+}, {
 kind: "onyx.Button",
 name: "registrarUsuario",
 classes: "nice-padding-top round onyx-mamao home-button",

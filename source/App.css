@@ -59,3 +59,13 @@
 .meleca {
     width: 70%;
 }
+
+.logo {
+    width: 90%;
+    max-width: 100%;
+}
+
+.fundo {
+    background-image: -moz-linear-gradient(31% 87% 90deg,#A3A3A3, #D9D9D9, #D4D4D4 100%);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D4D4D4), to(#A3A3A3), color-stop(.6,#D9D9D9));
+}

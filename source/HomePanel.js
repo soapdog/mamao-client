@@ -14,7 +14,20 @@ enyo.kind({
                 "Desejo de informação"
             ]
         },
-        {tag: "div", fit: true, classes: "center", components:[
+        {tag: "div", fit: true, classes: "center fundo", components:[
+            {
+                tag: "br"
+            },
+            {
+                tag: "img",
+                classes: "logo",
+                attributes: {
+                    src: "/assets/img/logo_mamao.png"
+                }
+            },
+            {
+                tag: "br"
+            },
             {
                 kind: "onyx.Button",
                 name: "registrarUsuario",
