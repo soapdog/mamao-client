@@ -1,6 +1,6 @@
-var mamaoServer = "http://localhost:3000";
+var mamaoServer = "http://mamaoserver.nodejitsu.com";
 
-var iconBase = 'http://localhost:8080/assets/img/';
+var iconBase = '/assets/img/';
 var icons = {
     dengue: {
         icon: iconBase + 'ico_dengue.png'

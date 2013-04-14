@@ -1,0 +1,14 @@
+{
+  "version": "0.1",
+  "name": "Mamão",
+  "description": "Vamos dominar o mundo",
+  "launch_path": "/debug.html",
+  "icons": {
+    "128": "/icon.png"
+  },
+  "developer": {
+    "name": "andre@andregarzia.com",
+    "url": "http://andregarzia.com"
+  },
+  "installs_allowed_from": ["*"]
+}

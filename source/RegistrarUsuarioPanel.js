@@ -40,10 +40,9 @@ enyo.kind({
         this.inherited(arguments);
         var p = JSON.parse(localStorage.getItem("usuario"));
 
-        if (p.email) {
+        if (p && p.email) {
             this.$.email.setValue(p.email);
             this.$.nome.setValue(p.nome);
-            this.render();
         }
     },
     goBack: function() {
