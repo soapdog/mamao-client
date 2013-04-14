@@ -102,7 +102,7 @@ enyo.kind({
         console.log("erro tipo 3");
         this.succ(null,position);
         //this.$.display.setContent("Could not find your position.");
-        //this.$.display.render();
+        this.$.display.render();
     },
     newMamao: function(inSender, inEvent) {
         var data = {};

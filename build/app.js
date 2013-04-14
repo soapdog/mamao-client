@@ -4365,7 +4365,7 @@ latitude: "-22.9534575",
 longitude: "-43.1919938"
 }
 };
-console.log("erro tipo 3"), this.succ(null, n);
+console.log("erro tipo 3"), this.succ(null, n), this.$.display.render();
 },
 newMamao: function(e, t) {
 var n = {}, r = {
