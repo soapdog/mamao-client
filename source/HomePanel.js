@@ -10,8 +10,12 @@ enyo.kind({
             kind: "PortsHeader",
             title: "Mamão",
             taglines: [
-                "Domindando o mundo!",
-                "Desejo de informação"
+                "Dominando o mundo!",
+                "Desejo de informação",
+                "Pink, o que vamos fazer hoje?",
+                "Its Alive!!! ALIIIIVEEE!!!!",
+                "Mamão é mais barato que tomate...",
+                "Alugamos este espaço"
             ]
         },
         {tag: "div", fit: true, classes: "center fundo", components:[

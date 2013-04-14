@@ -4218,7 +4218,7 @@ onPanelChanged: ""
 components: [ {
 kind: "PortsHeader",
 title: "Mam\u00e3o",
-taglines: [ "Domindando o mundo!", "Desejo de informa\u00e7\u00e3o" ]
+taglines: [ "Dominando o mundo!", "Desejo de informa\u00e7\u00e3o", "Pink, o que vamos fazer hoje?", "Its Alive!!! ALIIIIVEEE!!!!", "Mam\u00e3o \u00e9 mais barato que tomate...", "Alugamos este espa\u00e7o" ]
 }, {
 tag: "div",
 fit: !0,
