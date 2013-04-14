@@ -3626,7 +3626,7 @@ this.center.lat = t.lat(), this.center.lng = t.lng();
 addMarker: function(e) {
 if (this.$.map.hasNode()) {
 this.log("map has node");
-var t = new google.maps.LatLng(e.latitude, e.longitude), n = "<img src='" + icons[e.tipo].icon + "' />" + "<h2>" + e.titulo + "</h2>" + "<a href='#'><img src='/assets/img/btn_confirmar.png' /></a><br><br>" + "<a href='#'><img src='/assets/img/btn_remover.png' /></a>", r = new google.maps.InfoWindow({
+var t = new google.maps.LatLng(e.latitude, e.longitude), n = "<img src='" + icons[e.tipo].icon + "' />" + "<h2>" + e.titulo + "</h2>" + "<a href='#'><img src='/assets/img/btn_confirmar.png' /></a>&nbsp;&nbsp;" + "<a href='#'><img src='/assets/img/btn_remover.png' /></a>", r = new google.maps.InfoWindow({
 content: n
 });
 console.log("icon: " + icons[e.tipo].icon);
