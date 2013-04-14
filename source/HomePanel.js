@@ -18,7 +18,7 @@ enyo.kind({
             {
                 kind: "onyx.Button",
                 name: "registrarUsuario",
-                classes: "nice-padding-top round onyx-blue home-button",
+                classes: "nice-padding-top round onyx-mamao home-button",
                 content: "Login",
                 ontap: "registraUsuario"
             },
@@ -26,7 +26,7 @@ enyo.kind({
             {
                 kind: "onyx.Button",
                 name: "instalarBtn",
-                classes: "nice-padding-top round onyx-blue home-button",
+                classes: "nice-padding-top round onyx-mamao home-button",
                 content: "Instalar",
                 ontap: "installApp"
             }

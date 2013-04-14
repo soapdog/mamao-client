@@ -50,3 +50,8 @@
     background: none;
     background-color: #ea9c23;
 }
+
+.onyx-button.onyx-mamao {
+    background-color: rgb(242, 154, 47);
+    color: rgb(242, 242, 242);
+}

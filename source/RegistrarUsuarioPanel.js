@@ -28,7 +28,7 @@ enyo.kind({
                     kind: "onyx.Button",
                     content: "Fazer Login",
                     ontap: "login",
-                    classes: "onyx-blue",
+                    classes: "onyx-mamao",
                     style: "width: 90%"
 
                 }
