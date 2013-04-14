@@ -10,5 +10,13 @@
     "name": "andre@andregarzia.com",
     "url": "http://andregarzia.com"
   },
+  "permissions": {
+    "geolocation": {
+      "description": "Required for autocompletion in the share screen"
+      },
+    "alarms": {
+      "description": "Required to schedule notifications"
+    }
+  },
   "installs_allowed_from": ["*"]
 }

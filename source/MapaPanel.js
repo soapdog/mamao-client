@@ -92,19 +92,17 @@ enyo.kind({
         this.render();
     },
     err: function(inSender, inEvent) {
-        if (inEvent.code == 3) {
-            // FAKE IT TILL YOU MAKE IT
-            var position = {
-                coords: {
-                    latitude: "-22.9534575",
-                    longitude: "-43.1919938"
-                }
-            };
-            console.log("erro tipo 3");
-            this.succ(null,position);
-        }
-        this.$.display.setContent("Could not find your position.");
-        this.$.display.render();
+        // FAKE IT TILL YOU MAKE IT
+        var position = {
+            coords: {
+                latitude: "-22.9534575",
+                longitude: "-43.1919938"
+            }
+        };
+        console.log("erro tipo 3");
+        this.succ(null,position);
+        //this.$.display.setContent("Could not find your position.");
+        //this.$.display.render();
     },
     newMamao: function(inSender, inEvent) {
         var data = {};

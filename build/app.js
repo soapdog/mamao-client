@@ -4359,7 +4359,6 @@ ontap: "acquirePosition"
 })), this.render();
 },
 err: function(e, t) {
-if (t.code == 3) {
 var n = {
 coords: {
 latitude: "-22.9534575",
@@ -4367,8 +4366,6 @@ longitude: "-43.1919938"
 }
 };
 console.log("erro tipo 3"), this.succ(null, n);
-}
-this.$.display.setContent("Could not find your position."), this.$.display.render();
 },
 newMamao: function(e, t) {
 var n = {}, r = {
